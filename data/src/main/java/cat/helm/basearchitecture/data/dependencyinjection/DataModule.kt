@@ -1,5 +1,6 @@
 package cat.helm.basearchitecture.data.dependencyinjection
 
+<<<<<<< HEAD
 import cat.helm.basearchitecture.data.entity.TvShowDataEntity
 import cat.helm.basearchitecture.data.repository.datasource.CacheDataSource
 import cat.helm.basearchitecture.data.repository.datasource.ReadableDataSource
@@ -21,6 +22,13 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+=======
+import cat.helm.basearchitecture.data.repository.query.Query
+import cat.helm.basearchitecture.data.dependencyinjection.qualifier.DefaultQueries
+import dagger.Module
+import dagger.Provides
+import dagger.multibindings.ElementsIntoSet
+>>>>>>> scafolding
 import javax.inject.Singleton
 
 /**
@@ -37,6 +45,7 @@ class DataModule {
         return LinkedHashSet()
     }
 
+<<<<<<< HEAD
     @Singleton
     @Provides
     fun providesOkhttpClient(): OkHttpClient {
@@ -101,4 +110,6 @@ class DataModule {
         return SystemTimeProvider()
     }
 
+=======
+>>>>>>> scafolding
 }

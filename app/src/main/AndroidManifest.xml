@@ -13,15 +13,23 @@
             android:label="@string/app_name"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".ui.discover.DiscoverActivity">
+=======
+        <activity android:name=".ui.main.MainActivity">
+>>>>>>> scafolding
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".ui.detail.DetailActivity">
         </activity>
+=======
+
+>>>>>>> scafolding
     </application>
 
 </manifest>

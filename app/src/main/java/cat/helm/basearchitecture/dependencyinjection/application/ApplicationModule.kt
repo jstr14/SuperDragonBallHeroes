@@ -17,10 +17,17 @@ class ApplicationModule {
 
     @Provides
     @Singleton
+<<<<<<< HEAD
     @ApplicationContext
     internal fun provideContext(application: Application): Context {
         return application
     }
+=======
+    internal fun provideContext(application: Application): Context {
+        return application
+    }
+
+>>>>>>> scafolding
 
     @Provides
     @Singleton
